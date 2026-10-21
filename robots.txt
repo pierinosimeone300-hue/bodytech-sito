@@ -1,0 +1,6 @@
+# Prototipo del nuovo sito Bodytech: non indicizzare.
+# Quando il sito andrà online sul dominio ufficiale, sostituire con:
+#   User-agent: *
+#   Allow: /
+User-agent: *
+Disallow: /

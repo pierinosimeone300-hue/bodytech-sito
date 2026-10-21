@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prodotti — Bodytech</title>
+  <meta name="description" content="Catalogo Bodytech: carrozzine, stabilizzatori di statica, propulsori, cuscini, schienali, posizionamento, linea pediatrica.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=20261021">
+</head>
+<body data-page="prodotti">
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html">Home</a> / Prodotti</div>
+        <h1>Prodotti</h1>
+        <p>Tutte le soluzioni Bodytech, divise in tre aree: mobilità, seduta e postura, soluzioni speciali.</p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-top:28px">
+          <label class="search" style="flex:1;min-width:260px">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input id="cat-search" type="search" placeholder="Cerca un prodotto o una categoria…" aria-label="Cerca un prodotto o una categoria" style="padding:10px 0">
+          </label>
+          <div class="chips" id="cat-chips" aria-label="Filtra per area"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container" data-render="catalog"></div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container">
+        <div class="cta-band">
+          <div>
+            <h2>Non sai quale ausilio scegliere?</h2>
+            <p>Richiedi una prova del prodotto con l’utente presso la tua ortopedia, o parla con il referente della tua zona.</p>
+          </div>
+          <a class="btn btn--light" href="contatti.html?oggetto=prova#form">Richiedi una prova</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/data.js?v=20261021"></script>
+  <script src="assets/js/catalogo.js?v=20261021"></script>
+  <script src="assets/js/main.js?v=20261021"></script>
+</body>
+</html>

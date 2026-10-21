@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trova un rivenditore — Bodytech</title>
+  <meta name="description" content="Cerca il rivenditore Bodytech più vicino a te: oltre 230 ortopedie e sanitarie specializzate in tutta Italia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=20261021">
+</head>
+<body data-page="contatti">
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html">Home</a> / <a href="contatti.html">Contatti</a> / Rivenditori</div>
+        <h1>Trova il rivenditore più vicino</h1>
+        <p>Cerca per città, provincia o regione e filtra per prodotto: trovi le ortopedie e sanitarie specializzate Bodytech in tutta Italia.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="dealer-filters">
+          <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input id="dl-search" type="search" placeholder="Città, provincia o nome…" aria-label="Cerca un rivenditore" style="padding:10px 0"></label>
+          <select id="dl-region" aria-label="Regione"></select>
+          <select id="dl-cat" aria-label="Prodotto"></select>
+        </div>
+        <div class="dealer-levels">
+          <div class="chips" id="dl-levels" aria-label="Tipo di rivenditore">
+            <button class="chip" aria-pressed="true" data-l="premium"><i class="dot dot--premium"></i>Premium Dealer</button>
+            <button class="chip" aria-pressed="true" data-l="specialist"><i class="dot dot--specialist"></i>Specialist Dealer</button>
+            <button class="chip" aria-pressed="true" data-l="dealer"><i class="dot dot--dealer"></i>Dealer</button>
+          </div>
+          <span class="results-count" id="dl-count" style="margin:0"></span>
+        </div>
+
+        <div class="dealer-layout">
+          <div class="dealer-map" id="dl-map">
+            <div class="consent-placeholder">
+              <p>La mappa usa OpenStreetMap, un servizio esterno.</p>
+              <button class="btn btn--primary" type="button" data-load-map>Mostra la mappa</button>
+            </div>
+          </div>
+          <ul class="dealer-list" data-dealers></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container">
+        <div class="cta-band">
+          <div>
+            <h2>Preferisci parlare con un referente?</h2>
+            <p>I nostri agenti di zona ti aiutano a scegliere l’ausilio giusto, anche senza impegno.</p>
+          </div>
+          <a class="btn btn--light" href="forza-vendita.html">Trova il tuo referente</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/data.js?v=20261021"></script>
+  <script src="assets/js/rivenditori.js?v=20261021"></script>
+  <script src="assets/js/main.js?v=20261021"></script>
+</body>
+</html>

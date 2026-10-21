@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Novità — Bodytech</title>
+  <meta name="description" content="Articoli, casi clinici, eventi e testimonianze dal blog di Bodytech.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=20261021">
+</head>
+<body data-page="novita">
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html">Home</a> / Novità</div>
+        <h1>Novità</h1>
+        <p>Approfondimenti clinici, casi reali, eventi e testimonianze sul mondo degli ausili per la mobilità.</p>
+        <label class="search" style="margin-top:24px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="news-search" type="search" placeholder="Cerca un articolo…" aria-label="Cerca un articolo" style="padding:10px 0"></label>
+        <div class="chips" id="news-chips" style="margin-top:20px" aria-label="Filtra per argomento"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <p class="results-count" id="news-count"></p>
+        <div class="grid grid-3" data-render="news-all"></div>
+        <div style="text-align:center;margin-top:40px"><button class="btn btn--ghost" id="news-more" type="button" hidden>Mostra altri articoli</button></div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container">
+        <div class="cta-band">
+          <div>
+            <h2>Resta aggiornato</h2>
+            <p>Formazione, eventi, lancio di nuovi prodotti: iscriviti alla newsletter Bodytech.</p>
+          </div>
+          <a class="btn btn--light" href="contatti.html#newsletter">Iscriviti alla newsletter</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/data.js?v=20261021"></script>
+  <script src="assets/js/blog.js?v=20261021"></script>
+  <script src="assets/js/main.js?v=20261021"></script>
+</body>
+</html>
